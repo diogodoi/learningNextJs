@@ -1,0 +1,76 @@
+/* Menu */
+
+
+/* Auto layout */
+.boxMenu {
+    top:0;
+    display: grid;
+    grid-template-columns: 30vh 30vh 30vh;
+    justify-content: center;
+    gap: 16px;
+    // background: #E1ECF9;
+    // justify-content: space-around;
+
+    // border-radius: 30px;
+
+    &__list {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        align-self: center;
+        cursor: pointer;
+
+        border: none;
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #768BA3;
+        height: 44px;
+        padding: 0px 16px;
+        border-radius: 30px;
+
+
+        &__item {
+            list-style: none;
+            list-style-type: none;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            align-self: center;
+            justify-self: center;
+            color: #E1ECF9;
+            text-decoration: none;
+            gap: 8px;            
+            font-family: 'Cuprum';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 39px;
+            letter-spacing: -0.02em;
+
+            &:hover {
+                color: #768BA3;
+            }
+
+
+
+        }
+
+        &:hover {
+            background: #E1ECF9;
+            color: #768BA3;
+
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0px 16px 0px 32px;
+        }
+    }
+
+
+    &__icon {
+        width: 36.8px;
+        height: 33.31px;
+
+        background: #000000;
+    }
+
+    /* Inside auto layout */
+
+}

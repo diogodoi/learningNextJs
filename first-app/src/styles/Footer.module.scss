@@ -1,0 +1,16 @@
+.Footer{
+    display: flex;
+    gap: 3em;
+    // position: sticky;
+    // background-color: black;
+    min-width: 1024px;
+    min-height: 5em;
+    margin-top: 8px;
+    bottom: 0;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: white;
+    }
+}

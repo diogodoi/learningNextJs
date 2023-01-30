@@ -1,0 +1,37 @@
+/* Frame 3 */
+
+
+/* Auto layout */
+.button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 16px;
+    width: 100%;
+    height: 44px;
+
+    /* Azul mais claro */
+    border: 1px solid #c3d8f2;
+    background: #768BA3;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #E1ECF9;
+
+
+
+
+
+
+
+}

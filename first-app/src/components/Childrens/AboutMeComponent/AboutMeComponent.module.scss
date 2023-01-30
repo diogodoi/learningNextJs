@@ -1,0 +1,64 @@
+.aboutMeComp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 960px;
+    min-width: 1024px;    
+    // border-radius: 30px;
+    background-image: linear-gradient(95.2deg, rgba(10, 144, 215, 0.8), 26.8%, #a3c6ec 64%);
+    border-radius: 30px;
+    &__cardPresetention {
+        padding: 1em;
+        margin: 1em;
+        border-radius: 30px;
+        // background-color: black;
+        // box-shadow: inset 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Cuprum';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 39px;
+        align-items: center;
+        letter-spacing: -0.02em;
+        overflow: hidden;
+
+        p {
+            margin: 1em;
+        }
+        
+
+        h3 {
+            margin: 1em;
+        }
+    }
+
+    &__column {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em;
+    }
+
+
+    &__tecnogias {
+        H3 {
+            font-family: 'Cuprum';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 39px;
+            color: #FFFFFF;
+        }
+
+    }
+    &__imgs{
+        box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        background:#E1ECF9;
+        border-radius: 30px;
+        padding: 1em;
+    }
+
+
+}

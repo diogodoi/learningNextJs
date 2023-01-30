@@ -1,0 +1,57 @@
+.NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    // background-color: green;
+    height: 10vh;
+    min-width: 1024px;
+    &__items{
+        // border: 1px solid red;
+        display: flex;
+        gap: 3vh;
+        justify-content: space-between;
+
+        cursor: pointer;
+        list-style: none;
+        list-style-type: none;
+
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #768BA3;
+        height: 44px;
+        padding: 0px 16px;
+        border-radius: 30px;
+
+        &__item{
+            font-size: xx-large;
+            color: #E1ECF9;
+            text-decoration: none;
+            gap: 8px;
+            
+            width: 30vh; 
+            font-family: 'Cuprum';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 39px;            
+            letter-spacing: -0.02em;
+            &:hover{
+                color: #768BA3;
+            }
+            
+            
+
+        }
+        
+        &:hover {
+            background: #E1ECF9;
+            color: #768BA3;
+            
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0px 16px 0px 32px;
+        }
+        
+    }
+
+    
+}

@@ -1,0 +1,242 @@
+.main {
+    // box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 1;
+    min-width: 1024px;
+    min-height: 960px;
+    background-image: linear-gradient(95.2deg, rgba(10, 144, 215, 0.8), 26.8%, #a3c6ec 64%);
+}
+
+
+.Container {
+    display: grid;
+    min-width: 1024px;
+    min-height: 960px;
+    
+}
+
+.Home {
+
+    /* Fundo */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    /* Cor do mar */
+    height: 75vh;
+
+    // border-radius: 30px;
+    mix-blend-mode: normal;
+    min-width: 1024px;
+    min-height: 960px;
+    // box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+
+
+
+    &__imgs {
+
+        &_1 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation1;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        &_2 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation2;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &_3 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation3;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &_4 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation4;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &_5 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation5;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &_6 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation6;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &_7 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation7;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &_8 {
+            justify-self: center;
+            align-self: center;
+            animation-name: my-animation8;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            // animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+    }
+
+    @keyframes my-animation1 {
+        from {
+
+
+            transform: rotateY(45deg) translateX(2em) translateY(2em);
+
+        }
+
+        to {
+            transform: rotateY(90deg) ranslateX(-3em) translateY(-3em);
+
+        }
+    }
+
+    @keyframes my-animation2 {
+        from {
+
+
+            transform: rotateY(45deg) translateX(30px) translateY(30px);
+
+        }
+
+        to {
+            transform: rotateY(90deg) ranslateX(-30px) translateY(-30px);
+
+        }
+    }
+
+    @keyframes my-animation3 {
+        from {
+
+
+            transform: rotateY(45deg) translateX(-60px) translateY(60px);
+
+        }
+
+        to {
+            transform: rotateY(90deg) ranslateX(-30px) translateY(-30px);
+
+        }
+    }
+
+    @keyframes my-animation4 {
+        from {
+
+            transform: rotateY(90deg) ranslateX(-44px);
+
+
+        }
+
+        to {
+
+            transform: rotateY(-90deg) translateX(55px);
+        }
+    }
+
+    @keyframes my-animation5 {
+        from {
+
+
+            transform: rotateY(45deg) translateX(35px);
+
+        }
+
+        to {
+            transform: rotateY(90deg) ranslateX(-55px);
+
+        }
+    }
+
+    @keyframes my-animation6 {
+        from {
+
+            transform: rotateY(90deg) ranslateX(-26px) translateY(-26px);
+
+
+        }
+
+        to {
+            transform: rotateY(45deg) translateX(20px) translateY(20px);
+
+
+        }
+    }
+
+    @keyframes my-animation7 {
+        from {
+            transform: rotateY(90deg) ranslateX(-37px) translateY(-37px);
+
+
+
+        }
+
+        to {
+            transform: rotateY(45deg) translateX(20px) translateY(20px);
+
+        }
+    }
+
+    @keyframes my-animation8 {
+        from {
+
+            transform: rotateY(90deg) ranslateX(-30px) translateY(-30px);
+
+
+        }
+
+        to {
+            transform: rotateY(45deg) translateX(20px) translateY(20px);
+
+        }
+    }
+
+}

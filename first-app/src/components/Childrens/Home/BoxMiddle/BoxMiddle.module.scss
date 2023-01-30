@@ -1,0 +1,69 @@
+.boxMiddle {
+    display: flex;
+    flex-direction: row;
+
+    &__text {
+        box-shadow: 0px 16px 16px black ;
+        // position: fixed;
+        justify-content: center;
+        position: relative;
+        align-self: center;
+        background: #768BA3;
+        border-radius: 30px;
+        min-width: 456px;
+        min-height: 172px;
+        margin: 30px;
+        padding-top: 30px;
+        color: #FFFFFF;
+        font-family: 'Cuprum';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 39px;
+        letter-spacing: -0.02em;
+
+        span {
+            color: #FFFF00;
+        }
+    }
+
+    &__boxAmarelo {
+        &__topo_esquerda {
+            position: absolute;
+            background-color: #FFFF00;
+            min-width: 88px;
+            min-height: 74px;
+            border-radius: 20px;
+            // align-self: flex-end;
+            box-shadow: 4px 4px 4px black;
+
+        }
+
+        &__topo_direito {
+            position: absolute;
+            background-color: #FFFF00;
+            min-width: 88px;
+            min-height: 74px;
+            border-radius: 20px;
+            flex-direction: row;
+            margin-left: 430px;
+            box-shadow: 4px 4px 4px black;
+
+
+
+        }
+
+        &__baixo_esquerda {
+            position: absolute;
+            align-self: flex-end;
+            background-color: #FFFF00;
+            min-width: 88px;
+            min-height: 74px;
+            border: 1px gray solid;
+            border-radius: 20px;
+            box-shadow: 4px 4px 4px black;
+
+
+        }
+    }
+}
